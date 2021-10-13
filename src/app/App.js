@@ -6,7 +6,7 @@ const Container = styled.div`
 `;
 
 const App = () => (
-  <Container>My First Deployment</Container>
+  <Container>Testing my CI</Container>
 );
 
 export default App;
