@@ -1,12 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
+import Header from './Header';
 
-const Container = styled.div`
-  color: red;
-`;
 
 const App = () => (
-  <Container>Testing my CI</Container>
+  <div>
+    <Header />
+  </div>
 );
 
 export default App;
